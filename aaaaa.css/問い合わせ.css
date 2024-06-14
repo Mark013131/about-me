@@ -1,3 +1,6 @@
+*{
+    text-align: center;
+}
 .ueno{
     background-image: url(../images/footer-l.webp);
     padding-top: 12rem;
