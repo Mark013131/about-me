@@ -1,0 +1,26 @@
+.ueno{
+    background-image: url(../images/footer-l.webp);
+    padding-top: 12rem;
+}
+.font-japan{
+    text-align: center;
+    font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'BIZ UDPGothic', sans-serif;
+    font-size: 200%;
+}
+.info {
+    width: 100%;
+    max-width: 544px;
+    margin: auto;
+    padding: 0 1.5rem;
+    border-spacing: 0;
+}
+.copy {
+    background-color: #432;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 6rem;
+    color: #ffffff;
+}
+.align-center {
+    text-align: center;
+}
