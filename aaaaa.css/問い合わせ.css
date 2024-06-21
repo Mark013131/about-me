@@ -1,8 +1,16 @@
 *{
     text-align: center;
 }
+body{
+    background-color: #232323;
+}
+h1{
+    color: #ffffff;
+}
+.toi{
+    color: #ffffff;
+}
 .ueno{
-    background-image: url(../images/footer-l.webp);
     padding-top: 12rem;
 }
 .font-japan{
@@ -16,6 +24,7 @@
     margin: auto;
     padding: 0 1.5rem;
     border-spacing: 0;
+    color: #ffffff;
 }
 .copy {
     background-color: #432;
@@ -26,4 +35,7 @@
 }
 .align-center {
     text-align: center;
+}
+button{
+    margin-top: 100px;
 }
