@@ -1,5 +1,7 @@
+@charset "UTF-8";
 *{
-    text-align: center;
+      box-sizing: border-box;
+      text-align: center;
 }
 html {
     font-size: 100%;
@@ -8,10 +10,42 @@ body{
     background-color: #242323;
     font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
     line-height: 1.7;
-    color: rgb(68, 34, 34);
+    color: #ffffff;
+}
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+}
+nav {
+  margin: 0 0 0 auto;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+h1 {
+  margin: 0; padding: 0;
+  font-size: 20px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+li {
+  margin: 0 0 0 15px;
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 80px;
 }
 b{
-    color: #fff;
+    color: #7ab6f3;
     font-size: 150%;
 }
 h1{
@@ -23,28 +57,37 @@ h1{
 .copy {
     background-color: #432;
     text-align: center;
-    padding: 2rem 0;
     margin-top: 6rem;
     color: #ffffff;
 }
 button{
     margin-top: 100px;
 }
-
-.ueno{
-    padding-top: 12rem;
-}
 .font-japan{
     text-align: center;
     font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'BIZ UDPGothic', sans-serif;
-    font-size: 200%;
+    font-size: 150%;
+    color: aqua;
 }
 .info {
     width: 100%;
     max-width: 544px;
     margin: auto;
-    padding: 0 1.5rem;
     border-spacing: 0;
+}
+.info th,
+.info td {
+    border-bottom: 1px solid #c9c2bc;
+}
+.info th {
+    text-align: left;
+    font-weight: normal;
+    padding: 1rem;
+    color: #fff;
+}
+.info td {
+    padding: 1rem 0;
+    color: #fff;
 }
 .align-center {
     text-align: center;
@@ -68,7 +111,7 @@ button{
   }
   .calendar th,
   .calendar td {
-    border: 1px solid #000;
+    border: 1px solid #ffffff;
     text-align: center;
     padding: 10px;
     font-size: 14px;
@@ -90,8 +133,8 @@ button{
   }
   
   .calendar .sun {
-    color: #e17f7e;
-    background-color: #f8e4e2;
+    color: red;
+    background-color: #ffffff;
   }
   .calendar .sat {
     color: #7ab6f3;
@@ -101,8 +144,8 @@ button{
     color: #aaa;
   }
   .calendar .today {
-    background-color: #7d7d7d;
+    background-color: greenyellow;
   }
   .calendar .off {
-    background-color: #fadcdb;
+    background-color: 
   }

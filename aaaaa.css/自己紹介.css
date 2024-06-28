@@ -6,7 +6,7 @@
     position: sticky;
     top: 0;
     width: 100%;
-    background-color: #242323;
+    background-color: gray;
     display: flex;
     align-items: center;
  }
@@ -71,9 +71,6 @@ b{
     color: #fff;
     font-size: 150%;
 }
-.ueno {
-    padding-top: 12rem;
-}
 .info {
     width: 100%;
     max-width: 544px;
@@ -96,7 +93,7 @@ b{
     color: #fff;
 }
 .copy {
-    background-color: #432;
+    background-color: gray;
     text-align: center;
     padding: 2rem 0;
     margin-top: 6rem;
@@ -113,7 +110,8 @@ p{
 .font-japan{
     text-align: center;
     font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'BIZ UDPGothic', sans-serif;
-    font-size: 200%;
+    font-size: 150%;
+    color: gray;
 }
 .main-navfont-english{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -123,17 +121,13 @@ p{
 }
 .page-titlefont-english{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 200%;
+    font-size: 150%;
     text-align: center;
     background-color: lightblue;
 }
 details {
     border: 1px solid #ccc;
   }
-  details:not(:last-child) {
-    margin-bottom: 20px;
-  }
-  
   /**
    * list-style: none; ←デフォルト三角削除（Chrome非対応）
    * cursor: pointer; ←カーソルをポインターに
@@ -141,9 +135,8 @@ details {
   details summary {
     list-style: none;
     cursor: pointer;
-    padding: 20px;
-    background: #fff;
-    color: #242323;
+    background: #242323;
+    color: #fff;
     font-size: 2rem;
     font-weight: bold;
   }
@@ -170,62 +163,4 @@ details {
   
   details p {
     margin: 0;
-    padding: 20px;
   }  
-  .calendar-wrap {
-    margin: 0 auto;
-    max-width: 1110px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-  }
-  @media (max-width: 767.98px) {
-    .calendar-wrap {
-      display: flex;
-      flex-direction: column;
-    }
-  }
-  .calendar {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  .calendar th,
-  .calendar td {
-    border: 1px solid #000;
-    text-align: center;
-    padding: 10px;
-    font-size: 14px;
-    font-weight: bold;
-  }
-  .calendar th {
-    padding: 6px 10px;
-  }
-  .calendar td {}
-  @media (max-width: 767.98px) {
-    .calendar th,
-    .calendar td {
-      padding: 6px;
-      font-size: 12px;
-    }
-    .calendar th {
-      padding: 3px 6px;
-    }
-  }
-  
-  .calendar .sun {
-    color: #e17f7e;
-    background-color: #f8e4e2;
-  }
-  .calendar .sat {
-    color: #7ab6f3;
-    background-color: #e7f6fd;
-  }
-  .calendar .mute {
-    color: #aaa;
-  }
-  .calendar .today {
-    background-color: #7d7d7d;
-  }
-  .calendar .off {
-    background-color: #fadcdb;
-  }
