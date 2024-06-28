@@ -1,0 +1,51 @@
+*{
+    text-align: center;
+}
+html {
+    font-size: 100%;
+}
+body{
+    background-color: #242323;
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
+    line-height: 1.7;
+    color: rgb(68, 34, 34);
+}
+b{
+    color: #fff;
+    font-size: 150%;
+}
+h1{
+    color: #ffffff;
+}
+.toi{
+    color: #ffffff;
+}
+.copy {
+    background-color: #432;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 6rem;
+    color: #ffffff;
+}
+button{
+    margin-top: 100px;
+}
+
+.ueno{
+    padding-top: 12rem;
+}
+.font-japan{
+    text-align: center;
+    font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'BIZ UDPGothic', sans-serif;
+    font-size: 200%;
+}
+.info {
+    width: 100%;
+    max-width: 544px;
+    margin: auto;
+    padding: 0 1.5rem;
+    border-spacing: 0;
+}
+.align-center {
+    text-align: center;
+}
