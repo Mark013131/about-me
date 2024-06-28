@@ -11,6 +11,7 @@ body{
     font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
     line-height: 1.7;
     color: #ffffff;
+    margin: 0;
 }
 header {
   position: sticky;
@@ -120,7 +121,6 @@ button{
   .calendar th {
     padding: 6px 10px;
   }
-  .calendar td {}
   @media (max-width: 767.98px) {
     .calendar th,
     .calendar td {
@@ -147,5 +147,5 @@ button{
     background-color: greenyellow;
   }
   .calendar .off {
-    background-color: 
+    background-color: palegreen
   }

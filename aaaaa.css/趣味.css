@@ -8,7 +8,8 @@ body{
     background-color: #242323;
     font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
     line-height: 1.7;
-    color: rgb(68, 34, 34);
+    color: #fff;
+    margin: 0;
 }
 header {
     position: sticky;
@@ -92,4 +93,8 @@ button{
 }
 .align-center {
     text-align: center;
+}
+.yuugiou{
+    text-align: center;
+    font-size: 300%;
 }
