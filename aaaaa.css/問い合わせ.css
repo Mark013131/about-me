@@ -81,10 +81,11 @@ h1{
     color: #fff;
 }
 .copy {
-    background-color: #432;
+    background-color: gray;
     text-align: center;
     margin-top: 6rem;
     color: #ffffff;
+    padding: 2rem 0;
 }
 .align-center {
     text-align: center;
