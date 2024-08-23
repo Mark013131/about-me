@@ -60,8 +60,15 @@ h1{
     margin-top: 6rem;
     color: #ffffff;
 }
-button{
+button {
     margin-top: 100px;
+    background-color: #007BFF; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
 }
 .font-japan{
     text-align: center;
