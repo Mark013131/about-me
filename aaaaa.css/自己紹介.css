@@ -15,6 +15,7 @@ html {
 body {
     background-color: #242323;
     font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
+    font-size: 30rem;
     line-height: 1.7;
     color: rgb(68, 34, 34);
 }
@@ -25,7 +26,7 @@ a {
 }
 
 header {
-    position: sticky;
+    position: absolute;
     top: 0;
     width: 100%;
     background-color: gray;
